@@ -1,0 +1,22 @@
+.DS_Store
+.Rhistory
+node_modules
+.sass-cache
+build
+public-prod
+dist
+
+# Ignore everything in project-files EXCEPT KEEP ai2html output files
+/project-files/*
+!/project-files/ai2html-output/
+# Ignore illustrator files
+.ai
+
+
+public/index.html
+public/css/base.css
+public/js/base.js
+
+data/contentApi.json
+
+.python-version
