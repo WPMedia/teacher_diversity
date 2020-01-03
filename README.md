@@ -8,9 +8,15 @@ Minority students, particularly Latinos, are on the rise, but few of their class
 
 # About the folders in this repo
 
-* output_data is TK
+* **[data folder](https://github.com/WPMedia/teacher_diversity/tree/master/data)**
+  - [data_notes.csv](https://github.com/WPMedia/teacher_diversity/blob/master/data/data_notes.csv) State-specific notes on teacher race and ethnicity data including nonstandard race reporting and links to original data where it exists. 
+  - [raw_teacher_race_ethnicity.csv](https://github.com/WPMedia/teacher_diversity/blob/master/data/raw_teacher_race_ethnicity.csv) The data received from states and districts with minimal cleaning -- and no filtering -- beyond the standardization necesssary to make this national file. Please read data notes if you intend to work with this data. 
+   - [teacher_student_race_ethnicity.csv](https://github.com/WPMedia/teacher_diversity/blob/master/data/teacher_student_race_ethnicity.csv) A cleaned up national file used for this analysis that includes the share of teachers (columns appended with "T") and students (columns appended with "S") by race and ethnicity for each school district, along with a student count (columns appended with "N").
+   
+   LEA stands for Local Education Authority, or school district. National (leaid) and state-level (st_leaid) identification numbers are included.  
+  
 
-* **[analysis folder](https://github.com/WPMedia/teacher_diversity/tree/master/analysis)** contains two R files:
+* **[analysis folder](https://github.com/WPMedia/teacher_diversity/tree/master/analysis)** 
   - [read-n-clean](https://github.com/WPMedia/teacher_diversity/blob/master/analysis/read-n-clean.R) Reads in and cleans data state-by-state and creates a single national file.
   - [teacher-analysis](https://github.com/WPMedia/teacher_diversity/blob/master/analysis/teacher-analysis.R) Data analysis on national file
 
@@ -26,5 +32,8 @@ Additional details for this analysis can be found in the [About this story](http
 # Guidelines for using data
 
 If you publish an online story, graphic, map or other piece of journalism based on this data set, please credit The Washington Post, link to the [original source](https://www.washingtonpost.com/graphics/2019/local/school-diversity-data/), and [send us an email](mailto:maria.sanchezdiez@washpost.com) when you’ve hit publish. We want to learn what you discover and will attempt to link to your work as part of cataloguing the impact of this project.
+
+# Contact information
+Please reach out to Kate Rabinowitz at kate.rabinowitz@washpost.com with any questions. 
 
 
